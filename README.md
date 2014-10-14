@@ -1,4 +1,4 @@
-# uuid-v4
+# uuid4
 
 A Node.js module for generating and validation V4 UUIDs
 
