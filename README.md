@@ -14,8 +14,16 @@ $ npm install uuid4
 var uuid = require('uuid4');
 
 // Generate a new UUID
-var myUUID = uuid();
+var id = uuid();
 
 // Validate a UUID as proper V4 format
-uuid.isUUID(myUUID);  // true
+uuid.valid(id);  // true
+
+// Generate a new UUID Asyncronously
+uuid(function(err, id){
+  //if (err) ...;
+
+  //verify id
+  uuid.valid(id);
+});
 ```

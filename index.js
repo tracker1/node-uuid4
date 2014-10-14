@@ -5,7 +5,7 @@ var crypto = require('crypto')
     ;
 
 exports = module.exports = genUUID;
-exports.isUUID = isUUID;
+exports.valid = isUUID;
 
 
 function genUUID(callback) {
