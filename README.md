@@ -19,7 +19,7 @@ var id = uuid();
 // Validate a UUID as proper V4 format
 uuid.valid(id);  // true
 
-// Generate a new UUID Asyncronously
+// Generate a new UUID Asynchronously
 uuid(function(err, id){
   //if (err) ...;
 
