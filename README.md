@@ -2,8 +2,6 @@
 
 A Node.js module for generating and validation V4 UUIDs
 
-Note v1.1 adds a browser entry for use in browsers, `crypto` api for rng in modern browser, fallback to `Math.random()`
-
 ## Install
 
 ```bash
@@ -21,3 +19,7 @@ var id = uuid4();
 // Validate a UUID as proper V4 format
 uuid4.valid(id);  // true
 ```
+
+## License
+
+ISC License
