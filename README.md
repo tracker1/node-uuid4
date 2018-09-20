@@ -20,12 +20,4 @@ var id = uuid4();
 
 // Validate a UUID as proper V4 format
 uuid4.valid(id);  // true
-
-// NODE ONLY: Generate a new UUID Asynchronously
-uuid4(function(err, id){
-  //if (err) ...;
-
-  //verify id
-  uuid.valid(id);
-});
 ```
