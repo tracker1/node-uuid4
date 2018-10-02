@@ -51,7 +51,7 @@
   // AMD - legacy
   if (typeof define === "function" && define.amd) {
     define([], function() {
-      return genUUID();
+      return genUUID;
     });
   }
 })();
