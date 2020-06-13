@@ -13,4 +13,5 @@ function uuid4() {
 }
 uuid4.valid = valid;
 
-module.exports = uuid4;
+export default uuid4;
+export { uuid4, valid };
