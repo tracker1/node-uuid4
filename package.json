@@ -1,6 +1,6 @@
 {
   "name": "uuid4",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Node UUID v4 Generator",
   "main": "index.js",
   "module": "index.mjs",
