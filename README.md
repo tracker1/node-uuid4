@@ -23,6 +23,29 @@ var id = uuid4();
 uuid4.valid(id); // true
 ```
 
+### Direct in Browser
+
+```
+import uuid4 from 'https://cdn.jsdelivr.net/gh/tracker1/node-uuid4/browser.mjs';
+
+// or
+
+const { default: uuid4 } = await import('https://cdn.jsdelivr.net/gh/tracker1/node-uuid4/browser.mjs')
+```
+
+### Deno
+
+Use the canonical implementation instead.
+
+```
+import { v4 as uuid4 } from "https://deno.land/std/uuid/mod.ts";
+
+const id = uuid4.generate();
+
+console.log(id);
+console.log(uuid4.validate(id));
+```
+
 ## License
 
 ISC License
