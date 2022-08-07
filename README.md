@@ -23,7 +23,7 @@ var id = uuid4();
 uuid4.valid(id); // true
 ```
 
-### Direct in Browser
+### Direct in Browser or Deno
 
 ```
 import uuid4 from 'https://cdn.jsdelivr.net/gh/tracker1/node-uuid4/browser.mjs';
